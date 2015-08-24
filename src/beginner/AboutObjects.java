@@ -47,7 +47,7 @@ public class AboutObjects {
 	@Koan
 	public void toStringIsTestedForNullWhenInvokedImplicitly() {
 		String string = "string";
-		assertEquals(string + null, __);
+		assertEquals(string + null, "stringnull");
 	}
 
 	private Class<?>[] getAncestors(Object object) {
